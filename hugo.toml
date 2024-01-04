@@ -1,11 +1,11 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Leyang Zou'
 theme = "coder"
 
 paginate = 20
 
-disqusShortname = "yourdiscussshortname"
+#disqusShortname = "yourdiscussshortname"
 
 [markup.highlight]
 style = "github-dark"
@@ -26,8 +26,10 @@ style = "github-dark"
 
   enableTwemoji = true
 
-  colorScheme = "auto"
+  colorScheme = "light"
   hidecolorschemetoggle = false
+
+  maxSeeAlsoItems = 5
 
   # customCSS = ["css/custom.css"]
   # customSCSS = ["scss/custom.scss"]
@@ -41,20 +43,20 @@ style = "github-dark"
 
 # Social links
 [[params.social]]
-  name = "Github"
+  name = "GitHub"
   icon = "fa fa-github fa-2x"
   weight = 1
-  url = "https://github.com/johndoe/"
+  url = "https://github.com/BattleMage0231"
 [[params.social]]
-  name = "Gitlab"
-  icon = "fa fa-gitlab fa-2x"
+  name = "LinkedIn"
+  icon = "fa fa-linkedin fa-2x"
   weight = 2
-  url = "https://gitlab.com/johndoe/"
+  url = "https://www.linkedin.com/in/leyang-zou-484137204/"
 [[params.social]]
-  name = "Twitter"
-  icon = "fa fa-twitter fa-2x"
-  weight = 3
-  url = "https://twitter.com/johndoe/"
+  name = "Email"
+  icon = "fa fa-envelope fa-2x"
+  weight = 4
+  url = "mailto:l2zou@uwaterloo.ca"
 
 # Menu links
 [[menu.main]]
@@ -72,4 +74,4 @@ style = "github-dark"
 [[menu.main]]
   name = "Résumé"
   weight = 4
-  url = "resume/"
+  url = "Resume.pdf"
