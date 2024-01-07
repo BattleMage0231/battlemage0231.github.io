@@ -12,10 +12,10 @@ style = "github-dark"
 
 [params]
   author = "Leyang Zou"
-  info = "Computer Science Student @ UWaterloo"
+  info = ["Computer Science Student", "@ University of Waterloo"]
   description = "Leyang Zou's personal website"
   keywords = "blog,developer,personal"
-  #avatarurl = "images/avatar.jpg"
+  avatarurl = "PXL_20240106_181128516.jpg"
   #gravatar = "john.doe@example.com"
 
   faviconSVG = "/img/favicon.svg"
@@ -74,4 +74,4 @@ style = "github-dark"
 [[menu.main]]
   name = "Résumé"
   weight = 4
-  url = "Resume.pdf"
+  url = "resume/"

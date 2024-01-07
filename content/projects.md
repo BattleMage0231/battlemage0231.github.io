@@ -3,4 +3,6 @@ title = "Projects"
 slug = "projects"
 +++
 
-Nothing to see here... Move along!
+Here is a collection of some of the projects I've built over the years:
+
+
