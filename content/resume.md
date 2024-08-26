@@ -1,5 +1,0 @@
-+++
-slug = "resume"
-+++
-
-Coming soon!
